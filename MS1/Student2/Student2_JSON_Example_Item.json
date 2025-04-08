@@ -1,0 +1,33 @@
+{
+  "itemID": 1234578,
+  "name": "Way of the King",
+  "price": 19.99,
+  "rating": 4.5,
+  "description": "Roshar is a world of stone and storms. [...]",
+  "available_quantity": 22,
+  "sellerID": 1,
+  "warehouses": [
+    {
+      "warehouseID": 1,
+	  "shelves": [
+	    {
+		  "shelfNr": 1
+	    },
+	    {
+		  "shelfNr": 4
+	    }
+	  ]
+    },
+    {
+      "warehouseID": 2,
+	  "shelves": [
+	    {
+		  "shelfNr": 2
+	    },
+	    {
+		  "shelfNr": 3
+	    }
+	  ]
+    }
+  ]
+}

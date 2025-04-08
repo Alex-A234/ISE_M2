@@ -1,0 +1,43 @@
+{
+  "warehouseID": 1,
+  "name": "Wien09 Storage",
+  "contact_tel": "01/123 45 67",
+  "street": "Waeringer Straße 25",
+  "city": "Wien",
+  "zip_code": 1090,
+  "shelves": [
+    { 
+	  "shelfID": 1,
+	  "section": 1,
+	  "capacity": 2000, 
+	  "items": [
+		{
+		  "itemID": 1
+		  "quantity": 22
+		},
+		{
+		  "itemID": 4
+		  "quantity": 22
+		},
+		{
+		  "itemID": 5
+		  "quantity": 22
+		},
+		{
+		  "itemID": 6
+		  "quantity": 22
+		},
+		{
+		  "itemID": 7
+		  "quantity": 22
+		}
+	  ]
+    },
+    {
+      "shelfNr": 4,
+	  "section": 3,
+	  "capacity": 4000, 
+	  "items": []
+    }
+  ]
+}
