@@ -80,9 +80,12 @@ CREATE TABLE Item_Stored_In_Shelf (
 );
 
 CREATE TABLE Customer_Buys_Item (
+    PurchaseID INT AUTO_INCREMENT PRIMARY KEY,
     ItemID INT,
     CustomerID INT,
-    PRIMARY KEY (ItemID, CustomerID),
+    PurchaseDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    Quantity INT NOT NULL DEFAULT 1,
+    PurchasePrice INT NOT NULL,
     FOREIGN KEY (ItemID) REFERENCES Item(ItemID),
     FOREIGN KEY (CustomerID) REFERENCES Customer(CustomerID)
 );
