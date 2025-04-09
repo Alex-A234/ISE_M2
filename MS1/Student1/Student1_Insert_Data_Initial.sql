@@ -5,13 +5,6 @@ INSERT INTO Seller (SellerID, Name, Description) VALUES
 (4, 'Libro', 'Austrian books and stationery'),
 (5, 'Almdudler Shop', 'Official merchandise store');
 
-INSERT INTO Address (AddressID, Street, City, ZIP_Code) VALUES
-(1, 'Mariahilfer Straße 99', 'Wien', 1060),
-(2, 'Herrengasse 4-6', 'Graz', 8010),
-(3, 'Landstraße 45', 'Linz', 4020),
-(4, 'Getreidegasse 9', 'Salzburg', 5020),
-(5, 'Maria-Theresien-Straße 31', 'Innsbruck', 6020);
-
 INSERT INTO Item (ItemID, Name, Price, Rating, Description, Available_Quantity, SellerID) VALUES
 (101, 'Sissi DVD Box', 29, 5, 'Classic Austrian film trilogy', 50, 3),
 (102, 'Österreich Kochbuch', 24, 4, 'Traditional Austrian recipes', 40, 1),
