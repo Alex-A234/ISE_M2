@@ -1,0 +1,22 @@
+{
+  "sellerID": 1,
+  "name": "Tor Books",
+  "description": "fantasy books",
+  "items": [
+    {
+      "itemID": 1
+    },
+    {
+      "itemID": 4
+    },
+    {
+      "itemID": 5
+    },
+    {
+      "itemID": 6
+    },
+    {
+      "itemID": 7
+    }
+  ]
+}
