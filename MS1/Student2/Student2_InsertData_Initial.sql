@@ -11,7 +11,7 @@ INSERT INTO Item(ItemID, Name, Price, Rating, Description, Available_Quantity, S
 INSERT INTO Item(ItemID, Name, Price, Rating, Description, Available_Quantity, SellerID) VALUES (7, "Wind and Truth", 19.99, 4.4, "Roshar is a world of stone and storms. [...]", 0, 1); 
 
 INSERT INTO Book(ItemID, Author, ISBN, Page_Count) VALUES (1, "Brandon Sanderson", "9780765326355", 1007);
-INSERT INTO DvD(ItemID, Duration, Genre, Age_Restiction) VALUES (2, 169, "Science Fiction", 13);
+INSERT INTO DvD(ItemID, Duration, Genre, Age_Restriction) VALUES (2, 169, "Science Fiction", 13);
 INSERT INTO Book(ItemID, Author, ISBN, Page_Count) VALUES (3, "Wizards of the Coast", "9780786969517", 192);
 INSERT INTO Book(ItemID, Author, ISBN, Page_Count) VALUES (4, "Brandon Sanderson", "9780765326356", 1057); 
 INSERT INTO Book(ItemID, Author, ISBN, Page_Count) VALUES (5, "Brandon Sanderson", "9780765326357", 1107); 
