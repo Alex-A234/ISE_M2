@@ -1,0 +1,52 @@
+[
+  {
+    "_id": 1001,
+    "name": "Huber Anna",
+    "phone": "06641",
+    "address": {
+      "street": "Mariahilfer Straße 99",
+      "city": "Wien",
+      "zip": "1060"
+    }
+  },
+  {
+    "_id": 1002,
+    "name": "Müller Peter",
+    "phone": "06642",
+    "address": {
+      "street": "Landstraße Hauptstraße 1",
+      "city": "Wien",
+      "zip": "1030"
+    }
+  },
+  {
+    "_id": 1003,
+    "name": "Schmidt Maria",
+    "phone": "06643",
+    "address": {
+      "street": "Graben 1",
+      "city": "Wien",
+      "zip": "1010"
+    }
+  },
+  {
+    "_id": 1004,
+    "name": "Meier Hans",
+    "phone": "06644",
+    "address": {
+      "street": "Karlsplatz 1",
+      "city": "Wien",
+      "zip": "1040"
+    }
+  },
+  {
+    "_id": 1005,
+    "name": "Fischer Anna",
+    "phone": "06645",
+    "address": {
+      "street": "Schottentor 1",
+      "city": "Wien",
+      "zip": "1090"
+    }
+  }
+]

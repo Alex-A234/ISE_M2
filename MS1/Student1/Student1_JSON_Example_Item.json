@@ -1,0 +1,46 @@
+[
+    {
+      "_id": 101,
+      "name": "Sissi DVD Box",
+      "type": "dvd",
+      "price": 29,
+      "rating": 5,
+      "description": "Classic Austrian film trilogy",
+      "available_quantity": 50,
+      "seller_id": 3,
+      "details": {
+        "duration": 285,
+        "genre": "Historical",
+        "age_restriction": 6
+      }
+    },
+    {
+      "_id": 102,
+      "name": "Österreich Kochbuch",
+      "type": "book",
+      "price": 24,
+      "rating": 4,
+      "description": "Traditional Austrian recipes",
+      "available_quantity": 40,
+      "seller_id": 1,
+      "details": {
+        "author": "Sarah Wiener",
+        "isbn": "9783710602527",
+        "page_count": 240
+      }
+    },
+    {
+      "_id": 103,
+      "name": "Almdudler 6-Pack",
+      "type": "other",
+      "price": 12,
+      "rating": 5,
+      "description": "Austrian herbal drink",
+      "available_quantity": 100,
+      "seller_id": 5,
+      "details": {
+        "category": "beverage",
+        "package_size": "6-pack"
+      }
+    }
+  ]
