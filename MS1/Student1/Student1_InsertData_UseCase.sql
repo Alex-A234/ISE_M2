@@ -1,7 +1,6 @@
 -- This script inserts data into the database for a use case where a customer buys items from different warehouses.
 
--- Show tables before inserting data
-SELECT * FROM Customer_Buys_Item;
+-- Show items before Customer purchases items.
 SELECT * FROM Item;
 SELECT * FROM Item_Stored_In_Shelf;
 
@@ -54,6 +53,5 @@ UPDATE Item SET Available_Quantity = Available_Quantity - 2
 WHERE ItemID = 105 AND Available_Quantity >= 2;
 
 -- Check the updated data in the tables
-SELECT * FROM Customer_Buys_Item;
 SELECT * FROM Item;
 SELECT * FROM Item_Stored_In_Shelf;
