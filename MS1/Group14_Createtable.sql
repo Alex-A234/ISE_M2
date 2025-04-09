@@ -40,16 +40,18 @@ CREATE TABLE Customer (
     CustomerID INT PRIMARY KEY,
     Name CHAR(64),
     Phone_Number INT,
-    AddressID INT,
-    FOREIGN KEY (AddressID) REFERENCES Address(AddressID)
+    Street VARCHAR(256),
+    City CHAR(128),
+    ZIP_Code INT
 );
 
 CREATE TABLE Warehouse (
     WarehouseID INT PRIMARY KEY,
     Name CHAR(64),
     Contact_Tel CHAR(20),
-    AddressID INT,
-    FOREIGN KEY (AddressID) REFERENCES Address(AddressID)
+    Street VARCHAR(256),
+    City CHAR(128),
+    ZIP_Code INT
 );
 
 CREATE TABLE Shelf (
