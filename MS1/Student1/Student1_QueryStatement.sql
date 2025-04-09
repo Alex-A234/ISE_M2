@@ -14,4 +14,4 @@ JOIN Seller s ON i.SellerID = s.SellerID
 JOIN Item_Stored_In_Shelf iss ON i.ItemID = iss.ItemID
 JOIN Warehouse w ON iss.WarehouseID = w.WarehouseID    
 WHERE c.CustomerID = 1001
-ORDER BY i.Price DESC;  
+ORDER BY i.Price DESC;
