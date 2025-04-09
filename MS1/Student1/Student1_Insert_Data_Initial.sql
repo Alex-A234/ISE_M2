@@ -26,7 +26,7 @@ INSERT INTO Book (ItemID, Author, ISBN, Page_Count) VALUES
 
 INSERT INTO DvD (ItemID, Duration, Genre, Age_Restriction) VALUES
 (101, 285, 'Historical', 6),
-(201, 98, 'Comedy', 12),  -- Additional Austrian film
+(201, 98, 'Comedy', 12),
 (202, 112, 'Drama', 12);
 
 INSERT INTO Customer (CustomerID, Name, Phone_Number, AddressID) VALUES
@@ -44,15 +44,15 @@ INSERT INTO Warehouse (WarehouseID, Name, Contact_Tel, AddressID) VALUES
 (5, 'Tirol Lager', '+4351256789', 5);
 
 INSERT INTO Shelf (WarehouseID, ShelfNr, _Section, Capacity) VALUES
-(1, 1, 1, 500),  -- Wien
-(2, 1, 2, 400),  -- Graz
-(3, 1, 3, 600),  -- Linz
-(4, 1, 1, 300),  -- Salzburg
-(5, 1, 1, 450);  -- Tirol
+(1, 1, 1, 500),
+(2, 1, 2, 400),
+(3, 1, 3, 600),
+(4, 1, 1, 300),
+(5, 1, 1, 450);
 
 INSERT INTO Item_Stored_In_Shelf (ItemID, WarehouseID, ShelfNr, Quantity) VALUES
-(101, 1, 1, 25),  -- Sissi in Wien
-(102, 2, 1, 30),  -- Kochbuch in Graz
-(103, 3, 1, 50),  -- Almdudler in Linz
-(104, 4, 1, 40),  -- Stadtplan in Salzburg
-(105, 5, 1, 20);  -- Mozart in Tirol
+(101, 1, 1, 25),
+(102, 2, 1, 30),
+(103, 3, 1, 50),
+(104, 4, 1, 40),
+(105, 5, 1, 20);
