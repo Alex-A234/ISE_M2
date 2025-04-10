@@ -4,13 +4,6 @@ CREATE TABLE Seller (
     Description TEXT(16384)
 );
 
-CREATE TABLE Address (
-    AddressID INT PRIMARY KEY,
-    Street VARCHAR(256),
-    City CHAR(128),
-    ZIP_Code INT
-);
-
 CREATE TABLE Item (
     ItemID INT PRIMARY KEY,
     Name CHAR(200),
