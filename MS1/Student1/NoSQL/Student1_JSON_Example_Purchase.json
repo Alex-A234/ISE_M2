@@ -1,59 +1,42 @@
 [
   {
-    "_id": 1,
-    "customer_id": 1001,
-    "items": [
-      {
-        "item_id": 101,
-        "name": "Sissi DVD Box",
-        "type": "dvd",
-        "price": 29,
-        "quantity": 4,
-        "warehouse": {
-          "id": 1,
-          "shelf": 1
-        }
-      }
-    ],
-    "total": 116,
-    "purchase_date": "2025-03-15T10:30:00Z"
+    "PurchaseID": 1,
+    "CustomerID": 101,
+    "ItemID": 1001,
+    "PurchaseDate": "2015-04-19 14:11:34",
+    "Quantity": 4,
+    "PurchasePrice": 29
   },
   {
-    "_id": 2,
-    "customer_id": 1003,
-    "items": [
-      {
-        "item_id": 103,
-        "name": "Almdudler 6-Pack",
-        "type": "other",
-        "price": 12,
-        "quantity": 1,
-        "warehouse": {
-          "id": 3,
-          "shelf": 1
-        }
-      }
-    ],
-    "total": 12,
-    "purchase_date": "2025-03-15T10:30:00Z"
+    "PurchaseID": 2,
+    "CustomerID": 102,
+    "ItemID": 1001,
+    "PurchaseDate": "2015-04-19 14:21:34",
+    "Quantity": 3,
+    "PurchasePrice": 24
   },
   {
-    "_id": 3,
-    "customer_id": 1004,
-    "items": [
-      {
-        "item_id": 104,
-        "name": "Wien Stadtplan",
-        "type": "book",
-        "price": 8,
-        "quantity": 5,
-        "warehouse": {
-          "id": 4,
-          "shelf": 1
-        }
-      }
-    ],
-    "total": 40,
-    "purchase_date": "2025-03-15T10:30:00Z"
+    "PurchaseID": 3,
+    "CustomerID": 103,
+    "ItemID": 1003,
+    "PurchaseDate": "2015-04-19 14:31:34",
+    "Quantity": 1,
+    "PurchasePrice": 12
+  },
+  {
+    "PurchaseID": 4,
+    "CustomerID": 104,
+    "ItemID": 1004,
+    "PurchaseDate": "2015-04-19 14:41:34",
+    "Quantity": 5,
+    "PurchasePrice": 8
+  },
+  {
+    "PurchaseID": 5,
+    "CustomerID": 105,
+    "ItemID": 1005,
+    "PurchaseDate": "2015-04-19 14:51:34",
+    "Quantity": 2,
+    "PurchasePrice": 19
   }
 ]
