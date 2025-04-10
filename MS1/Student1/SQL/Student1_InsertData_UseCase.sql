@@ -4,7 +4,7 @@
 SELECT * FROM Item;
 SELECT * FROM Item_Stored_In_Shelf;
 
--- Insert data into Purchase table
+-- Insert data into Purchase table (Customer purchases items)
 INSERT INTO Purchase (ItemID, CustomerID, Quantity, PurchasePrice)
 SELECT 101, 1001, 4, Price FROM Item WHERE ItemID = 101;
 
