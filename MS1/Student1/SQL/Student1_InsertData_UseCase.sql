@@ -4,7 +4,7 @@
 SELECT * FROM Item;
 SELECT * FROM Item_Stored_In_Shelf;
 
--- Insert data into Purchase table
+-- Insert data into Purchase table (Customer purchases items)
 INSERT INTO Purchase (ItemID, CustomerID, Quantity, PurchasePrice)
 SELECT 101, 1001, 4, Price FROM Item WHERE ItemID = 101;
 
@@ -20,7 +20,7 @@ SELECT 104, 1004, 5, Price FROM Item WHERE ItemID = 104;
 INSERT INTO Purchase (ItemID, CustomerID, Quantity, PurchasePrice)
 SELECT 105, 1005, 2, Price FROM Item WHERE ItemID = 105;
 
--- Update the quantity in the Item_Stored_In_Shelf table
+-- Update the quantity in the Item_Stored_In_Shelf table (After the purchase)
 UPDATE Item_Stored_In_Shelf SET Quantity = Quantity - 4 
 WHERE ItemID = 101 AND WarehouseID = 1 AND ShelfNr = 1;
 
@@ -36,7 +36,7 @@ WHERE ItemID = 104 AND WarehouseID = 4 AND ShelfNr = 1;
 UPDATE Item_Stored_In_Shelf SET Quantity = Quantity - 2 
 WHERE ItemID = 105 AND WarehouseID = 5 AND ShelfNr = 1;
 
--- Update the available quantity in the Item table
+-- Update the available quantity in the Item table (After the purchase)
 UPDATE Item SET Available_Quantity = Available_Quantity - 4 
 WHERE ItemID = 101 AND Available_Quantity >= 4;
 
@@ -52,6 +52,9 @@ WHERE ItemID = 104 AND Available_Quantity >= 5;
 UPDATE Item SET Available_Quantity = Available_Quantity - 2 
 WHERE ItemID = 105 AND Available_Quantity >= 2;
 
--- Check the updated data in the tables
+-- Check the updated data in the tables (After the purchase)
 SELECT * FROM Item;
 SELECT * FROM Item_Stored_In_Shelf;
+
+-- Check the Purchase table to see which customer purchased which items, the quantities, price, and the purchase date.
+SELECT * FROM Purchase;
