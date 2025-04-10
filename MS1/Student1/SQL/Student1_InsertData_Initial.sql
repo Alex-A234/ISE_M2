@@ -23,18 +23,18 @@ INSERT INTO DvD (ItemID, Duration, Genre, Age_Restriction) VALUES
 (202, 112, 'Drama', 12);
 
 INSERT INTO Customer (CustomerID, Name, Phone_Number, Street, City, ZIP_Code) VALUES
-(1001, 'Huber Anna', '436641123456', 'Mariahilfer Straße 99', 'Wien', '1060'),
-(1002, 'Bauer Thomas', '436642123456', 'Herrengasse 4-6', 'Graz', '8010'),
-(1003, 'Wieser Sabine', '436643123456', 'Landstraße 45', 'Linz', '4020'),
-(1004, 'Eder Franz', '436645123456', 'Getreidegasse 9', 'Salzburg', '5020'),
-(1005, 'Mair Petra', '436646123456', 'Maria-Theresien-Straße 31', 'Innsbruck', '6020');
+(1001, 'Huber Anna', '+436641123456', 'Mariahilfer Straße 99', 'Wien', '1060'),
+(1002, 'Bauer Thomas', '+436642123456', 'Herrengasse 4-6', 'Graz', '8010'),
+(1003, 'Wieser Sabine', '+436643123456', 'Landstraße 45', 'Linz', '4020'),
+(1004, 'Eder Franz', '+436645123456', 'Getreidegasse 9', 'Salzburg', '5020'),
+(1005, 'Mair Petra', '+436646123456', 'Maria-Theresien-Straße 31', 'Innsbruck', '6020');
 
 INSERT INTO Warehouse (WarehouseID, Name, Contact_Tel, Street, City, ZIP_Code) VALUES
-(1, 'Wien Lager West', '431234567890', 'Lagerhausstraße 1', 'Wien', '1100'),
-(2, 'Graz Zentrum', '43316543210', 'Lagerstraße 5', 'Graz', '8010'),
-(3, 'Linz Logistik', '43732456120', 'Industriezeile 10', 'Linz', '4030'),
-(4, 'Salzburg Versand', '43662233440', 'Versandpark 3', 'Salzburg', '5020'),
-(5, 'Tirol Lager', '43512567890', 'Lagerweg 8', 'Innsbruck', '6020');
+(1, 'Wien Lager West', '+431234567890', 'Lagerhausstraße 1', 'Wien', '1100'),
+(2, 'Graz Zentrum', '+43316543210', 'Lagerstraße 5', 'Graz', '8010'),
+(3, 'Linz Logistik', '+43732456120', 'Industriezeile 10', 'Linz', '4030'),
+(4, 'Salzburg Versand', '+43662233440', 'Versandpark 3', 'Salzburg', '5020'),
+(5, 'Tirol Lager', '+43512567890', 'Lagerweg 8', 'Innsbruck', '6020');
 
 INSERT INTO Shelf (WarehouseID, ShelfNr, _Section, Capacity) VALUES
 (1, 1, 1, 500),
