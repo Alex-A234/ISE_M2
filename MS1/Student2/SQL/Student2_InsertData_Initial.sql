@@ -18,13 +18,9 @@ INSERT INTO Book(ItemID, Author, ISBN, Page_Count) VALUES (5, "Brandon Sanderson
 INSERT INTO Book(ItemID, Author, ISBN, Page_Count) VALUES (6, "Brandon Sanderson", "9780765326358", 1207); 
 INSERT INTO Book(ItemID, Author, ISBN, Page_Count) VALUES (7, "Brandon Sanderson", "9780765326359", 1307); 
 
-INSERT INTO Address(AddressID, Street, City, ZIP_Code) VALUES (1, "Waeringer Straße 25", "Wien", 1090);
-INSERT INTO Address(AddressID, Street, City, ZIP_Code) VALUES (2, "Hauptstraße 2", "St. Pölten", 3100);
-INSERT INTO Address(AddressID, Street, City, ZIP_Code) VALUES (3, "Bahnhofstraße 22", "Linz", 4020);
-
-INSERT INTO Warehouse(WarehouseID, Name, Contact_Tel, AddressID) VALUES (1, "Wien09 Storage", "01/123 45 67", 1);
-INSERT INTO Warehouse(WarehouseID, Name, Contact_Tel, AddressID) VALUES (2, "St. Pölten, Mühlviertel Storage", "02742/123 45 67", 2);
-INSERT INTO Warehouse(WarehouseID, Name, Contact_Tel, AddressID) VALUES (3, "Linz Oberösterreich Storage", "0732/123 45 67", 3);
+INSERT INTO Warehouse(WarehouseID, Name, Contact_Tel, Street, City, ZIP_Code) VALUES (1, "Wien09 Storage", "01/123 45 67", "Waeringer Straße 25", "Wien", 1090);
+INSERT INTO Warehouse(WarehouseID, Name, Contact_Tel, Street, City, ZIP_Code) VALUES (2, "St. Pölten, Mühlviertel Storage", "02742/123 45 67", "Hauptstraße 2", "St. Pölten", 3100);
+INSERT INTO Warehouse(WarehouseID, Name, Contact_Tel, Street, City, ZIP_Code) VALUES (3, "Linz Oberösterreich Storage", "0732/123 45 67", "Bahnhofstraße 22", "Linz", 4020);
 
 INSERT INTO Shelf(WarehouseID, ShelfNr, _Section, Capacity) VALUES (1, 1, 1, 2000); 
 INSERT INTO Shelf(WarehouseID, ShelfNr, _Section, Capacity) VALUES (2, 2, 2, 4000); 

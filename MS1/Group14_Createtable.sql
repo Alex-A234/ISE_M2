@@ -74,7 +74,7 @@ CREATE TABLE Item_Stored_In_Shelf (
     FOREIGN KEY (WarehouseID, ShelfNr) REFERENCES Shelf(WarehouseID, ShelfNr)
 );
 
-CREATE TABLE Customer_Buys_Item (
+CREATE TABLE Purchase (
     PurchaseID INT AUTO_INCREMENT PRIMARY KEY,
     ItemID INT,
     CustomerID INT,
