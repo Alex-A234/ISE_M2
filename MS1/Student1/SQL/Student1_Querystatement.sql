@@ -7,7 +7,7 @@ SELECT
     s.Name AS Seller,
     w.Name AS Warehouse,
     i.Available_Quantity AS RemainingStock
-FROM Customer_Buys_Item cbi
+FROM Purchase cbi
 JOIN Customer c ON cbi.CustomerID = c.CustomerID
 JOIN Item i ON cbi.ItemID = i.ItemID
 JOIN Seller s ON i.SellerID = s.SellerID
