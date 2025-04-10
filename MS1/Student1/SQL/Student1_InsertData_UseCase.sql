@@ -4,20 +4,20 @@
 SELECT * FROM Item;
 SELECT * FROM Item_Stored_In_Shelf;
 
--- Insert data into Customer_Buys_Item table
-INSERT INTO Customer_Buys_Item (ItemID, CustomerID, Quantity, PurchasePrice)
+-- Insert data into Purchase table
+INSERT INTO Purchase (ItemID, CustomerID, Quantity, PurchasePrice)
 SELECT 101, 1001, 4, Price FROM Item WHERE ItemID = 101;
 
-INSERT INTO Customer_Buys_Item (ItemID, CustomerID, Quantity, PurchasePrice)
+INSERT INTO Purchase (ItemID, CustomerID, Quantity, PurchasePrice)
 SELECT 102, 1001, 3, Price FROM Item WHERE ItemID = 102;
 
-INSERT INTO Customer_Buys_Item (ItemID, CustomerID, Quantity, PurchasePrice)
+INSERT INTO Purchase (ItemID, CustomerID, Quantity, PurchasePrice)
 SELECT 103, 1003, 1, Price FROM Item WHERE ItemID = 103;
 
-INSERT INTO Customer_Buys_Item (ItemID, CustomerID, Quantity, PurchasePrice)
+INSERT INTO Purchase (ItemID, CustomerID, Quantity, PurchasePrice)
 SELECT 104, 1004, 5, Price FROM Item WHERE ItemID = 104;
 
-INSERT INTO Customer_Buys_Item (ItemID, CustomerID, Quantity, PurchasePrice)
+INSERT INTO Purchase (ItemID, CustomerID, Quantity, PurchasePrice)
 SELECT 105, 1005, 2, Price FROM Item WHERE ItemID = 105;
 
 -- Update the quantity in the Item_Stored_In_Shelf table
