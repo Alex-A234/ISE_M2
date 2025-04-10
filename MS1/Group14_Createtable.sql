@@ -4,13 +4,6 @@ CREATE TABLE Seller (
     Description TEXT(16384)
 );
 
-CREATE TABLE Address (
-    AddressID INT PRIMARY KEY,
-    Street VARCHAR(256),
-    City CHAR(128),
-    ZIP_Code INT
-);
-
 CREATE TABLE Item (
     ItemID INT PRIMARY KEY,
     Name CHAR(200),
@@ -39,17 +32,19 @@ CREATE TABLE Book (
 CREATE TABLE Customer (
     CustomerID INT PRIMARY KEY,
     Name CHAR(64),
-    Phone_Number INT,
-    AddressID INT,
-    FOREIGN KEY (AddressID) REFERENCES Address(AddressID)
+    Phone_Number CHAR(20),
+    Street VARCHAR(256),
+    City CHAR(128),
+    ZIP_Code INT
 );
 
 CREATE TABLE Warehouse (
     WarehouseID INT PRIMARY KEY,
     Name CHAR(64),
     Contact_Tel CHAR(20),
-    AddressID INT,
-    FOREIGN KEY (AddressID) REFERENCES Address(AddressID)
+    Street VARCHAR(256),
+    City CHAR(128),
+    ZIP_Code INT
 );
 
 CREATE TABLE Shelf (
