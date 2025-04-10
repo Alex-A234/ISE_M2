@@ -36,7 +36,7 @@ WHERE ItemID = 104 AND WarehouseID = 4 AND ShelfNr = 1;
 UPDATE Item_Stored_In_Shelf SET Quantity = Quantity - 2 
 WHERE ItemID = 105 AND WarehouseID = 5 AND ShelfNr = 1;
 
--- Update the available quantity in the Item table
+-- Update the available quantity in the Item table (After the purchase)
 UPDATE Item SET Available_Quantity = Available_Quantity - 4 
 WHERE ItemID = 101 AND Available_Quantity >= 4;
 
