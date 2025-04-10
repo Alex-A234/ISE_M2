@@ -1,59 +1,59 @@
 [
-    {
-      "_id": 1,
-      "customer_id": 1001,
-      "items": [
-        {
-          "item_id": 101,
-          "name": "Sissi DVD Box",
-          "type": "dvd",
-          "price": 29,
-          "quantity": 4,
-          "warehouse": {
-            "id": 1,
-            "shelf": 1
-          }
+  {
+    "_id": 1,
+    "customer_id": 1001,
+    "items": [
+      {
+        "item_id": 101,
+        "name": "Sissi DVD Box",
+        "type": "dvd",
+        "price": 29,
+        "quantity": 4,
+        "warehouse": {
+          "id": 1,
+          "shelf": 1
         }
-      ],
-      "total": 116,
-      "purchase_date": "2025-03-15T10:30:00Z"
-    },
-    {
-      "_id": 2,
-      "customer_id": 1003,
-      "items": [
-        {
-          "item_id": 103,
-          "name": "Almdudler 6-Pack",
-          "type": "other", 
-          "price": 12,
-          "quantity": 1,  
-          "warehouse": {
-            "id": 3,
-            "shelf": 1
-          }
+      }
+    ],
+    "total": 116,
+    "purchase_date": "2025-03-15T10:30:00Z"
+  },
+  {
+    "_id": 2,
+    "customer_id": 1003,
+    "items": [
+      {
+        "item_id": 103,
+        "name": "Almdudler 6-Pack",
+        "type": "other",
+        "price": 12,
+        "quantity": 1,
+        "warehouse": {
+          "id": 3,
+          "shelf": 1
         }
-      ],
-      "total": 12, 
-      "purchase_date": "2025-03-15T10:30:00Z"
-    },
-    {
-      "_id": 3,
-      "customer_id": 1004,
-      "items": [
-        {
-          "item_id": 104,
-          "name": "Wien Stadtplan",
-          "type": "book",
-          "price": 8,
-          "quantity": 5,
-          "warehouse": {
-            "id": 4,
-            "shelf": 1
-          }
+      }
+    ],
+    "total": 12,
+    "purchase_date": "2025-03-15T10:30:00Z"
+  },
+  {
+    "_id": 3,
+    "customer_id": 1004,
+    "items": [
+      {
+        "item_id": 104,
+        "name": "Wien Stadtplan",
+        "type": "book",
+        "price": 8,
+        "quantity": 5,
+        "warehouse": {
+          "id": 4,
+          "shelf": 1
         }
-      ],
-      "total": 40,
-      "purchase_date": "2025-03-15T10:30:00Z"
-    }
-  ]
+      }
+    ],
+    "total": 40,
+    "purchase_date": "2025-03-15T10:30:00Z"
+  }
+]
