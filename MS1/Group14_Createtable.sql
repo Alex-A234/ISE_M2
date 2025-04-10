@@ -39,7 +39,7 @@ CREATE TABLE Book (
 CREATE TABLE Customer (
     CustomerID INT PRIMARY KEY,
     Name CHAR(64),
-    Phone_Number INT,
+    Phone_Number CHAR(20),
     Street VARCHAR(256),
     City CHAR(128),
     ZIP_Code INT
