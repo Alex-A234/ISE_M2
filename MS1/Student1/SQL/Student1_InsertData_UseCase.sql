@@ -20,7 +20,7 @@ SELECT 104, 1004, 5, Price FROM Item WHERE ItemID = 104;
 INSERT INTO Purchase (ItemID, CustomerID, Quantity, PurchasePrice)
 SELECT 105, 1005, 2, Price FROM Item WHERE ItemID = 105;
 
--- Update the quantity in the Item_Stored_In_Shelf table
+-- Update the quantity in the Item_Stored_In_Shelf table (After the purchase)
 UPDATE Item_Stored_In_Shelf SET Quantity = Quantity - 4 
 WHERE ItemID = 101 AND WarehouseID = 1 AND ShelfNr = 1;
 
