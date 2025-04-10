@@ -52,6 +52,9 @@ WHERE ItemID = 104 AND Available_Quantity >= 5;
 UPDATE Item SET Available_Quantity = Available_Quantity - 2 
 WHERE ItemID = 105 AND Available_Quantity >= 2;
 
--- Check the updated data in the tables
+-- Check the updated data in the tables (After the purchase)
 SELECT * FROM Item;
 SELECT * FROM Item_Stored_In_Shelf;
+
+-- Check the Purchase table to see which customer purchased which items, the quantities, price, and the purchase date.
+SELECT * FROM Purchase;
